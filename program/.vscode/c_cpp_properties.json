@@ -6,10 +6,14 @@
                 "${workspaceFolder}/**",
                 "C:/Users/razva/emsdk/upstream/emscripten/cache/sysroot/include",
                 "C:/Users/razva/emsdk/upstream/lib/clang/19/include",
+<<<<<<< HEAD
                 "C:\\Users\\razva\\emsdk\\upstream\\emscripten\\cache\\sysroot\\include\\SDL2",
                 "/usr/include/SDL2",
                 "${workspaceFolder}/**",
                 "/home/razvan/emsdk/upstream/emscripten/system/include/**"
+=======
+                "C:\\Users\\razva\\emsdk\\upstream\\emscripten\\cache\\sysroot\\include\\SDL2"
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
             ],
             "defines": [
                 "_DEBUG",
@@ -17,7 +21,11 @@
                 "_UNICODE"
             ],
             "windowsSdkVersion": "10.0.26100.0",
+<<<<<<< HEAD
             "compilerPath": "/usr/bin/gcc",
+=======
+            "compilerPath": "cl.exe",
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "windows-msvc-x64"

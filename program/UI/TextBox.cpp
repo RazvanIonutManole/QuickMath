@@ -3,14 +3,22 @@
 TextBox::TextBox(int x, int y, int w, int h, TTF_Font* font, SDL_Color color) {
     rect = {x, y, w, h};
     label = new MathLabel(font, color);
+<<<<<<< HEAD
     lastInput = "/x01";
+=======
+    lastInput = "\x01";
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 }
 
 TextBox::TextBox(int x, int y, int w, int h, TTF_Font* font, SDL_Color color, std::string hint)
     : hint(hint) {
     rect = {x, y, w, h};
     label = new MathLabel(font, color);
+<<<<<<< HEAD
     lastInput = "/x01";
+=======
+    lastInput = "\x01";
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
     hintLabel = new MathLabel(font, color);
 }
 
@@ -19,7 +27,11 @@ TextBox::TextBox(int x, int y, int w, int h, TTF_Font* font, SDL_Color color,
     : hint(hint), allowedChars(allowedChars), maxLength(maxLength) {
     rect = {x, y, w, h};
     label = new MathLabel(font, color);
+<<<<<<< HEAD
     lastInput = "/x01";
+=======
+    lastInput = "\x01";
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
     hintLabel = new MathLabel(font, color);
 }
 
@@ -78,7 +90,11 @@ void TextBox::draw(SDL_Renderer* renderer) {
 
 void TextBox::clearInput() {
     userInput = "";
+<<<<<<< HEAD
     lastInput = "/x01";
+=======
+    lastInput = "\x01";
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 }
 
 void TextBox::initHint(SDL_Renderer* renderer) {

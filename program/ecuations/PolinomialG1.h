@@ -2,8 +2,13 @@
 #define PolinomialG1_H
 
 #include "Ecuation.h"
+<<<<<<< HEAD
 #include "../UI/MathLabel.h"
 #include "../UI/FractionLabel.h"
+=======
+#include "MathLabel.h"
+#include "FractionLabel.h"
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 #include <random>
 
 class PolinomialG1 : public Ecuation {

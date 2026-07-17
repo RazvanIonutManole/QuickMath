@@ -2,7 +2,11 @@
 #define DerivativeTrig_H
 
 #include "Ecuation.h"
+<<<<<<< HEAD
 #include "../UI/MathLabel.h"
+=======
+#include "MathLabel.h"
+>>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 #include <random>
 
 class DerivativeTrig : public Ecuation {
