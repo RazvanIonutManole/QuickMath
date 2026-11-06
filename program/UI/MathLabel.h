@@ -3,11 +3,7 @@
 
 #include <SDL2/SDL.h>
 #include <string>
-<<<<<<< HEAD
 #include <SDL2/SDL_ttf.h>
-=======
-#include <SDL2\SDL_ttf.h>
->>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 #include "Label.h"
 
 class MathLabel : public Label {

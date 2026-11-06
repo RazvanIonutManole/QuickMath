@@ -26,3 +26,5 @@ else
     # Verify index.data size
     ls -lh index.data
 fi
+
+read -p "Press Enter to exit..."

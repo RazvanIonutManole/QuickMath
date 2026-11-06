@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include "SDL_Include.h"
 #include "SDL_TTF_Include.h"
 #include <emscripten.h>
@@ -25,34 +25,9 @@
 #include "ecuations/LimitInfPol.h"
 #include "ecuations/LimitFindA.h"
 #include "ecuations/LimitLinAdd.h"
-=======
+
 #include <SDL2/SDL.h>
-#include <emscripten.h>
-#include <iostream>
-#include <SDL2/SDL_ttf.h>
-#include "UI\ImageButton.h"
-#include "UI\MathLabel.h"
-#include "UI\TextBox.h"
-#include "UI\ScrollBox.h"
-#include "UI\FontSet.h"
-#include "UI\Animation.h"
-#include "UI\PageBox.h"
-#include "UI\RadioGroup.h"
-#include "ecuations\Addition.h"
-#include "ecuations\Substraction.h"
-#include "ecuations\Multiplication.h"
-#include "ecuations\Division.h"
-#include "ecuations\PolinomialG1.h"
-#include "ecuations\FractionAdd.h"
-#include "ecuations\FractionMultiply.h"
-#include "ecuations\DecimalEcuation.h"
-#include "ecuations\DerivativePol.h"
-#include "ecuations\DerivativeTrig.h"
-#include "ecuations\DerivativePolExp.h"
-#include "ecuations\LimitInfPol.h"
-#include "ecuations\LimitFindA.h"
-#include "ecuations\LimitLinAdd.h"
->>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
+
 #include <emscripten/fetch.h>
 #include <random>
 #include <vector>
@@ -747,11 +722,7 @@ int main() {
         return 1;
     }
     if (TTF_Init() == -1) {
-<<<<<<< HEAD
         printf("TTF_Init Error: %s/n", TTF_GetError());
-=======
-        printf("TTF_Init Error: %s\n", TTF_GetError());
->>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
         return 1;
     }
     SDL_CreateWindowAndRenderer(1000, 600, 0, &window, &renderer);

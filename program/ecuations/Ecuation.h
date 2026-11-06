@@ -3,25 +3,12 @@
 
 #include <vector>
 #include <random>
-<<<<<<< HEAD
 #include "../UI/TextBox.h"
-#ifdef __EMSCRIPTEN__
-    #include <SDL.h>
-#else
-    #include <SDL2/SDL.h>
-#endif
+#include <SDL2/SDL.h>
 #include "../UI/MathLabel.h"
 #include "../UI/ScrollBox.h"
 #include "../UI/PageBox.h"
 #include "../UI/FontSet.h"
-=======
-#include "..\UI\TextBox.h"
-#include <SDL2/SDL.h>
-#include "..\UI\MathLabel.h"
-#include "..\UI\ScrollBox.h"
-#include "..\UI\PageBox.h"
-#include "..\UI\FontSet.h"
->>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 #include <string>
 
 struct AnswerSlot {

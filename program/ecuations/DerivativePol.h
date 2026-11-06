@@ -2,13 +2,8 @@
 #define DerivativePol_H
 
 #include "Ecuation.h"
-<<<<<<< HEAD
 #include "../UI/MathLabel.h"
 #include "../UI/PowerLabel.h"
-=======
-#include "..\UI\MathLabel.h"
-#include "..\UI\PowerLabel.h"
->>>>>>> 9249e509f5aa743e968d1056335f9becc9651930
 #include <random>
 
 class DerivativePol : public Ecuation {
